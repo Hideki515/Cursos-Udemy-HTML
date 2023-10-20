@@ -1,0 +1,49 @@
+/*Limpar formatações padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Elementos Padrão*/
+body{
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #e6e6e6;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+/*Links*/
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color:white;
+    padding: 8px 12px;
+}
+
+a:hover{
+    color: #f7b600;
+    background-color: white;
+
+}
+
+/*Ids*/
+#cabecalho{
+    background-color: f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+
+/*Classes*/
+.blanco{
+    color: white;
+}
